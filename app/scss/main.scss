@@ -1,0 +1,38 @@
+.doc-container {
+  position: relative;
+  margin: 0 auto;
+  height: 400px;
+  width: 400px;
+  border: 2px solid black;
+  padding: 15px;
+}
+.doc-text {
+  height: 290px;
+  overflow: auto;
+  line-height: 140%;
+  margin-bottom: 20px;
+}
+.modal-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+.modal {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 100px;
+  background: white;
+  button {
+    height: 40px;
+    width: 80px;
+    font-size: 20px;
+  }
+  p {
+    font-size: 30px;
+  }
+}
